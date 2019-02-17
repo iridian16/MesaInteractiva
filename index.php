@@ -16,7 +16,7 @@
             <div>
             <br><br><br><br><br>
         ';
-        $var = 0;
+        $var = 3;
         if($var==0){
             echo '
                 <div class="container">
@@ -32,16 +32,14 @@
                 </div>
             ';
         } 
-        
-        if($var==1){
+        else if($var==1){
             echo '
                 <div class="container">
                     <div class="row">
-                        <div class="col-xs-12">  
-                        <div class="col-xs-7">      
-                            <div id="estilo1">Texto<br>dfsdfs</div>
-                            <div id="estilo2">Texto 2</div> 
-                        </div
+                        <div class="col-xs-12" style="height:440px" id="estilo1">
+                            <div style="height:440px" id="estilo2" >
+                                Espacio para 1 usuario
+                            </div> 
                         </div>
                     </div
                 </div>
@@ -49,7 +47,45 @@
         } 
         else if($var==2){
             echo '
-                <a> hay 2</a>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6" style="height:440px" id="estilo1">
+                            <div style="height:440px; width:555px;" id="estilo2" >
+                                Espacio para usuario 1
+                            </div> 
+                        </div>
+                        <div class="col-xs-6" style="height:440px" id="estilo1">
+                            <div style="height:440px; width:555px;" id="estilo2" >
+                                Espacio para usuario 2
+                            </div> 
+                        </div>
+                    </div
+                </div>
+            ';  
+        }
+        /* 3 o 4 Usuarios*/
+        else{
+            echo '
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6" style="height:440px" id="estilo1">
+                            <div style="height:220px; width:555px;" id="estilo2" >
+                                Espacio para usuario 1
+                            </div> 
+                            <div style="height:220px; width:555px;" id="estilo3" >
+                                Espacio para usuario 3
+                            </div> 
+                        </div>
+                        <div class="col-xs-6" style="height:440px" id="estilo1">
+                            <div style="height:220px; width:555px;" id="estilo3" >
+                                Espacio para usuario 2
+                            </div> 
+                            <div style="height:220px; width:555px;" id="estilo2" >
+                                Espacio para usuario 4
+                            </div> 
+                        </div>
+                    </div
+                </div>
             ';  
         }
     ?>
