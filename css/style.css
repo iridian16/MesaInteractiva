@@ -1,0 +1,143 @@
+/* ========================================= General styles ======================================*/
+
+*/
+@font-face {
+font-family: 'Eras Light ITC';
+font-style: normal;
+font-weight: normal;
+src: local('Eras Light ITC'), url('ERASLGHT.woff') format('woff');
+}
+body{
+    font-family: "Eras Light ITC";
+    line-height: 1.5;
+    font-size: 2em;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #fff;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: rgb(0,45,76);
+    box-shadow: 2px 0px 7px #000;
+	z-index: 50;
+}
+.contenedor-tabla{
+    display: table;
+    width: 100%;
+}
+.contenedor-tr {
+  display: table-row;
+  width: 100%;
+}
+.contenedor-tr > a{
+	text-decoration: none;
+	color: #fff;
+}
+.contenedor-tr > a:hover{
+	background-color: rgba(0,180,255,0.6);
+    transition: background-color .4s ease-in;
+    -moz-transition: background-color .4s ease-in;
+    -webkit-transition: background-color .4s ease-in;
+    -ms-transition: background-color .4s ease-in;
+    -o-transition: background-color .4s ease-in;
+}
+.contenedor-tr > a:last-child{
+	border-right: 1px solid rgba(149, 165, 166,0.8);
+}
+.table-cell-td {
+  display: table-cell;
+  padding: 20px 7px;
+  border-left: 1px solid rgba(149, 165, 166,0.8);
+  text-align: center;
+  width: 20%;
+}
+.table-cell-td:focus{
+	outline: none;
+}
+.logo-navbar{
+    background-image: url(../assets/img/Logo-navbarr.png);
+    width: 140px;
+    height: 70px;
+    margin-left: 10%;
+    float: left;
+}
+.text-navbar{
+    color: #fff;
+    font-size: 19px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 15px;
+}
+#mobile-menu-list{
+	display: none;
+}
+
+section{
+    width: 100%;
+    margin: 0px;
+    padding: 85px 0px;
+}
+article{
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+}
+footer{
+    width: 100%;
+    height: 5%;
+    color: #fff;
+    background-color: rgb(0,55,89);
+    padding: 42px 0px;
+}
+
+.tittles-pages-logo{
+    font-family: "Eras Light ITC";
+}
+.center-all-contens{
+    margin-left: auto;
+    margin-right: auto;
+}
+#carrito-compras-tienda{
+    width: 100%;
+    padding: 20px;
+}
+#container-carrito-compras{
+   background-color: rgb(43, 29, 29);
+   color:#fff;
+   display: none;
+}
+/* ========================================= index styles ======================================*/
+#container-page-index{
+    background-image: url(../imagenes/font-indexx.png);   
+}
+#jumbotron-index{
+    margin: 0px;
+    padding: 150px 25px;
+    color: #fff;
+    background-color: rgba(0,180,225,.8);
+}
+#new-prod-index{
+    background-color: rgba(255,255,255,1);
+}
+#reg-info-index{
+    background-color: rgba(255,255,255,1);
+    border-top: 1px solid rgba(183, 165, 165,.2);
+}
+#distribuidores-index{
+    background-color: rgba(186, 188, 171,1);
+    color: #000;
+}
+
+
+
+
+#estilo1{color:#FFF;background:#000;}
+#estilo2{color:red;background:blue;}
