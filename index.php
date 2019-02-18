@@ -16,7 +16,12 @@
             <div>
             <br><br><br><br><br>
         ';
-        $var = 3;
+        
+        $var=0;
+        $actual=ejecutarSQL::consultar("select SUM(status) from usuarios where 1");
+        $row = mysql_fetch_row($actual);
+        $var=$row[0];
+
         if($var==0){
             echo '
                 <div class="container">
