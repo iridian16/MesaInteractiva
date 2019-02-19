@@ -1,0 +1,158 @@
+.vertical-menu{
+  background-color:#00a8b5;
+  width: 200px; 
+  height:660px;
+  overflow:auto;
+  float: left;
+}
+
+.vertical-menu a {
+  background-color: #f4f9f4; 
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; 
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; 
+  color: white;
+  position: absolute;
+  width: 185px;
+}
+.mesa{
+  background-color:#222831;
+  color: black; /* Black text color */
+  width: 1000px; /* Set a width if you like */
+  height:600px;
+  float: right;
+}
+.cuadrante1{
+  background-color: #ffcdab;
+  border: 1px solid red;
+  color: black; /* Black text color */
+  width: 500px; /* Set a width if you like */
+  height:300px;
+  float: right;
+}
+.cuadrante2{
+  background-color:#ffcdab;
+  border: 1px solid red;
+  color: black; /* Black text color */
+   width: 500px; /* Set a width if you like */
+  height:300px;
+  float: right;
+}.cuadrante3{
+  background-color: #ffcdab;
+  border: 1px solid red; 
+  border-color: red;
+  color: black; /* Black text color */
+   width: 500px; /* Set a width if you like */
+  height:300px;
+  float: right;
+}
+.cuadrante4{
+  background-color: #ffcdab;
+  border: 1px solid red;
+  border-color: red;
+  color: black; /* Black text color */
+   width: 500px; /* Set a width if you like */
+  height:300px;
+  float: right;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+/*ul li:hover {background: #555;}*/
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  /*width: 200px;*/
+  display: none;
+}
+ul li ul li { 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+/*ul li ul li:hover {background: #f4f9f4;}*/
+
+.menu-images{
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.menu-images1{
+  position: relative;
+  top: 1px;
+  left: 463px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.menu-images3{
+  position: relative;
+  top: 265px;
+  left: 463px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.menu-images4{
+  position: relative;
+  top: 265px;
+  left: 1px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.portador1{
+  background-color: #ffc60b;
+  position: relative;
+  top: 1px;
+  left: 280px;
+  border-radius: 8%;
+  width: 120px;
+  height: 20px;
+}
+
+.portador2{
+  background-color: #ffc60b;
+  position: relative;
+  top: 1px;
+  left: 560px;
+  border-radius: 8%;
+  width: 120px;
+  height: 20px;
+}
+
+.portador3{
+  background-color: #ffc60b;
+  position: relative;
+  top: 618px;
+  left: 325px;
+  border-radius: 8%;
+  width: 120px;
+  height: 20px;
+}
+
+.portador4{
+  background-color: #ffc60b;
+  position: relative;
+  top: 618px;
+  left: -470px;
+  border-radius: 8%;
+  width: 120px;
+  height: 20px;
+}
